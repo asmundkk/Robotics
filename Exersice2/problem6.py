@@ -1,5 +1,5 @@
 import numpy as np
-from robotics import rodriguez
+from ../robotics import rodriguez
 
 def rotx(theta):
     x = np.array([1, 0, 0])

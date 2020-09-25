@@ -1,6 +1,6 @@
-#  __name__ = "__hey__"
-
-
+#  python -m Robotics.Exersice2.problem3_new
+print (__name__)
+print(__package__)
 from ..robotics import rodriguez
 import numpy as np
 from numpy import pi, matrix, array, sqrt, sin, cos
@@ -21,7 +21,7 @@ def find_rotation_matrix(p1, p2):
     print("should be = 1: ", np.linalg.norm(p_cross_unit))
     theta = np.arccos(p1@p2/(np.linalg.norm(p1)*np.linalg.norm(p2)))
 
-    return robotics.rodriguez(p_cross_unit, theta)
+    return rodriguez(p_cross_unit, theta)
 
 print("rotation matrix 1: \n", find_rotation_matrix(p11, p12))
 print("rotation matrix 2: \n", find_rotation_matrix(p21, p22))
