@@ -1,4 +1,0 @@
-Y:/new_project>python -m project.package.demo
-__file__=Y:/new_project/project/package/demo.py | __name__=__main__                  | __package__=project.package
-__file__=Y:/new_project/project/config.py       | __name__=project.config            | __package__=project
-The value of config.count is 5
